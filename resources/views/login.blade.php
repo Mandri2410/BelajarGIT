@@ -117,23 +117,23 @@
 </head>
 <body>
     <header>
-        <h1> TUGAS PWD</h1>
+        <h1> PWL</h1>
         <nav class="navbar">
-            <a href="home.html">Home</a>
-            <a href="service.html">Our Services</a>
-            <a href="about.html">About Us</a>
+            <a href="home.html">1</a>
+            <a href="service.html">2</a>
+            <a href="about.html">3</a>
         </nav>
     </header>
 
     <div class="container">
         <div id="home">
             <div class="section-header">
-                <h2>Welcome to Tugas PWD Mandri</h2>
+                <h2>Hello World</h2>
             </div>
             <h1>Biodata Diri</h1>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdLWo6jGA63byzL5RlMg_mILAZJmyAByEViw&usqp=CAU" alt="gambar profil" class="profile-image">
             <p class="justify-text">
-                "Nama saya adalah Mandri, dan saya saat ini fokus pada belajar dan mengembangkan keterampilan dalam HTML, CSS, JavaScript, dan berbagai teknologi terkait lainnya. Selama perjalanan belajar saya, saya telah merasakan betapa menariknya membangun situs web, merancang antarmuka pengguna yang interaktif, dan memecahkan tantangan teknis yang muncul di sepanjang jalan. Selain itu, saya juga tertarik pada konsep-konsep seperti responsivitas, optimasi kinerja, dan pengalaman pengguna yang baik. Saya percaya bahwa memahami dasar-dasar teknologi web adalah langkah awal yang penting dalam membangun karir yang sukses di dunia web development.".
+                "HELLO WORLD".
             </p>            
             <table>
                 <tr>
@@ -148,57 +148,12 @@
                     <td><b>Hobby</b></td>
                     <td>Main game, membaca komik dan novel, mendengarkan music</td>
                 </tr>
-                <tr>
-                    <td><b>Makanan Kesukaan</b></td>
-                    <td><li>Mie goreng</li>
-                        <li>Nasi goreng</li>
-                        <li>Martabak</li>
-                        <li>makanan manis</li></td>
-                </tr>
             </table>
            
         </div>
 
-        <div id="services">
-            <div class="section-header">
-                <h2>Our Services</h2>
-            </div>
-            <form action="newsletter.php" method="post" class="newsletter-form">
-                <h2 style="color: #333;">Join our Newsletter!</h2>
-                <div class="form-group">
-                    <label for="name" style="color: #333;">Nama Lengkap:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required style="padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 100%;">
-                </div>
-        
-                <div class="form-group">
-                    <label for="email" style="color: #333;">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required style="padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 100%;">
-                </div>
-        
-                <div class="form-group">
-                    <label for="interests" style="color: #333;">Minat:</label>
-                    <select id="interests" name="interests" multiple style="padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 100%;">
-                        <option value="technology">Technology</option>
-                        <option value="fashion">Fashion</option>
-                        <option value="food">Food</option>
-                        <option value="travel">Travel</option>
-                        <option value="sports">Sports</option>
-                    </select>
-                </div>
-        
-                <button type="submit" style="background-color: #04aa6d; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%;">Subscribe Now!</button>
-            </form>
-        </div>
 
-        <!-- About Us Section -->
-        <div id="about">
-            <div class="section-header">
-                <h2>About Me</h2>
-            </div>
-            <p class="justify-text">
-                "Saya senang bisa berbagi pengalaman dan pengetahuan dengan Anda melalui berbagai platform, seperti blog pribadi saya dan media sosial. Mari kita terus belajar bersama dan menjadikan dunia web development sebagai tempat bagi pertumbuhan dan inovasi. Terima kasih atas dukungannya!".
-            </p>          </div>
-    </div>
+
 
     <!-- Simplified Contact Us Section -->
     <div class="contact-us">
