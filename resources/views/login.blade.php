@@ -154,10 +154,7 @@
 
 
 
-
-    <!-- Simplified Contact Us Section -->
-    <div class="contact-us">
-        <p>please don't hesitate to get in touch with us:</p>
+    <div class="contact">
         <p>Email: H1101221052@student.untan.ac.id</p>
         <p>Phone: +62 822 5370 6110</p>
     </div>
