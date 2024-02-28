@@ -1,110 +1,210 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>PWL</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://badoystudio.com/cloudme.fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H1101221052-Mandri-TugasPWD</title>
     <style>
-        html,
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "Roboto", sans-serif;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
         }
 
-        .profile-card {
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .profile-picture {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .center-image {
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0; 
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Menggunakan tinggi 100vh agar gambar berada di tengah vertikal layar */
+            justify-content: space-between; 
+            align-items: center; 
         }
 
-        .skills-bar {
-            margin-top: 10px;
+        h1 {
+            font-size: 28px; 
         }
 
-        .skills-label {
-            font-weight: bold;
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         }
 
-        .progress {
-            width: 100%;
-            background-color: #ccc; /* Warna latar belakang bar */
-            height: 30px; /* Tinggi bar */
-            border-radius: 5px; /* Sudut yang lebih halus */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: left;
         }
 
-        .progress-bar {
-            text-align: center;
-            line-height: 30px; /* Pusatkan teks vertikal di dalam bar */
-            width: 0; /* Panjang awal bar */
-            height: 100%;
-            background-color: #d39bcb; /* Warna bar persentase */
-            color: white; /* Warna teks */
-            border-radius: 5px; /* Sudut yang lebih halus */
-        }
-
-        /* Navbar styles */
+        
         .navbar {
+            display: flex;
+            background-color: #333;
             overflow: hidden;
-            background-color: #ffffff;
         }
 
         .navbar a {
-            float: left;
             font-size: 16px;
-            color: rgb(0, 0, 0);
-            text-align: center;
-            padding: 14px 16px;
+            color: white;
             text-decoration: none;
+            margin: 0 10px; 
         }
 
         .navbar a:hover {
-            background-color: #11ff4100;
-            color: rgba(235, 235, 235, 0.816);
+            background-color: #ddd;
+            color: black;
         }
 
-        /* Styles for the combined header and navbar */
-        .header-navbar {
-            background-color: #fdfd96;
-            color: white;
+        @media screen and (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar a {
+                margin: 10px 0; 
+            }
+        }
+        .section-header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
-            padding: 20px;
-            font-size: 24px;
+            margin-top: 20px;
         }
 
-        /* Custom footer style */
-        .custom-footer {
-            background-color: #fdfd96;
+        .contact-us {
+            background-color: #333;
+            color: #fff;
+            padding: 10px; 
+            text-align: center;
         }
 
-        .w3-text-custom {
-            color: #d39bcb !important;
+        select {
+            width: 100%; 
         }
-        
+
+        .profile-image {
+            max-width: 200px; 
+            height: auto; 
+        }
+
+        table {
+            width: 100%; 
+            border-collapse: collapse; 
+        }
+
+        table td, table th {
+            border: 1px solid #ddd; 
+            padding: 8px; 
+            text-align: left; 
+        }
+
+        table th {
+            background-color: #f2f2f2; 
+            width: 200px; 
+        }
+
+        .justify-text {
+            text-align: justify;
+         }
+</style>
     </style>
 </head>
-    
+<body>
+    <header>
+        <h1> TUGAS PWD</h1>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="service.html">Our Services</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
 
+    <div class="container">
+        <div id="home">
+            <div class="section-header">
+                <h2>Welcome to Tugas PWD Mandri</h2>
+            </div>
+            <h1>Biodata Diri</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdLWo6jGA63byzL5RlMg_mILAZJmyAByEViw&usqp=CAU" alt="gambar profil" class="profile-image">
+            <p class="justify-text">
+                "Nama saya adalah Mandri, dan saya saat ini fokus pada belajar dan mengembangkan keterampilan dalam HTML, CSS, JavaScript, dan berbagai teknologi terkait lainnya. Selama perjalanan belajar saya, saya telah merasakan betapa menariknya membangun situs web, merancang antarmuka pengguna yang interaktif, dan memecahkan tantangan teknis yang muncul di sepanjang jalan. Selain itu, saya juga tertarik pada konsep-konsep seperti responsivitas, optimasi kinerja, dan pengalaman pengguna yang baik. Saya percaya bahwa memahami dasar-dasar teknologi web adalah langkah awal yang penting dalam membangun karir yang sukses di dunia web development.".
+            </p>            
+            <table>
+                <tr>
+                    <td><b>Nama</b></td>
+                    <td>Mandri</td>
+                </tr>
+                <tr>
+                    <td><b>Tempat, Tanggal Lahir</b></td>
+                    <td>Sintang, 24 Oktober 2004</td>
+                </tr>
+                <tr>
+                    <td><b>Hobby</b></td>
+                    <td>Main game, membaca komik dan novel, mendengarkan music</td>
+                </tr>
+                <tr>
+                    <td><b>Makanan Kesukaan</b></td>
+                    <td><li>Mie goreng</li>
+                        <li>Nasi goreng</li>
+                        <li>Martabak</li>
+                        <li>makanan manis</li></td>
+                </tr>
+            </table>
+           
+        </div>
+
+        <div id="services">
+            <div class="section-header">
+                <h2>Our Services</h2>
+            </div>
+            <form action="newsletter.php" method="post" class="newsletter-form">
+                <h2 style="color: #333;">Join our Newsletter!</h2>
+                <div class="form-group">
+                    <label for="name" style="color: #333;">Nama Lengkap:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required style="padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 100%;">
+                </div>
+        
+                <div class="form-group">
+                    <label for="email" style="color: #333;">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required style="padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 100%;">
+                </div>
+        
+                <div class="form-group">
+                    <label for="interests" style="color: #333;">Minat:</label>
+                    <select id="interests" name="interests" multiple style="padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 100%;">
+                        <option value="technology">Technology</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="food">Food</option>
+                        <option value="travel">Travel</option>
+                        <option value="sports">Sports</option>
+                    </select>
+                </div>
+        
+                <button type="submit" style="background-color: #04aa6d; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%;">Subscribe Now!</button>
+            </form>
+        </div>
+
+        <!-- About Us Section -->
+        <div id="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+            <p class="justify-text">
+                "Saya senang bisa berbagi pengalaman dan pengetahuan dengan Anda melalui berbagai platform, seperti blog pribadi saya dan media sosial. Mari kita terus belajar bersama dan menjadikan dunia web development sebagai tempat bagi pertumbuhan dan inovasi. Terima kasih atas dukungannya!".
+            </p>          </div>
+    </div>
+
+    <!-- Simplified Contact Us Section -->
+    <div class="contact-us">
+        <p>please don't hesitate to get in touch with us:</p>
+        <p>Email: H1101221052@student.untan.ac.id</p>
+        <p>Phone: +62 822 5370 6110</p>
+    </div>
+</body>
 </html>
